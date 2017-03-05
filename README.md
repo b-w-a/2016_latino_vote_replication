@@ -1,2 +1,5 @@
-# 2016_latino_vote_replication
-Code and data to replicate all Latino vote analyses
+# 2016 Latino Voter Replication File 
+
+## This contains the data and code to replicate the following studies. 
+
+
