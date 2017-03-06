@@ -21,5 +21,17 @@
 
 ### Data acquisition and availability 
 
++ The goal of the data collection process was to obtain reliable precinct level demographic characteristics, namely the percent of Latinos within the voting precinct, the vote share for both Clinton and Trump, and the total number of votes cast in the precinct. 
+
++ For the most part, precinct level vote returns were obtained directly from the county clerks of the respective counties. Often times these were made available via a canvass report posted on the website. State specific sources are available via the individual state pages below. 
+
++ Precinct level demographics were obtained from two sources depending on the state. In some states, comprehensive publicly available redistricting data with precinct level demographics were used. In states where this information was not available, we used Catalist, a private online vendor, to supply the demographic estimates.
+
+### Ecological Inference
+
++ The point of ecological inference is to solve the ecological fallacy of inferring individual level behavior from aggregate data. King's (1997) method is the most widely used ecological inference method in academia and is extensively used in voting rights cases. There is extensive documentation about the reliability and accuracy of these estimates is available here: http://gking.harvard.edu/category/research-interests/methods/ecological-inference 
+
+
+### 
 
 
