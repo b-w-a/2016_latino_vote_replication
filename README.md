@@ -11,7 +11,7 @@
 
 + California (Pedraza and Wilcox-Archuleta): http://www.latimes.com/opinion/op-ed/la-oe-pedraza-latino-vote-20170111-story.html
 
-+ Arizona (Nu\~{n}o and Wilcox-Archuleta): http://www.azcentral.com/story/opinion/op-ed/2016/11/26/exit-polls-wrong-latino-voters-arizona/94288570/
++ Arizona (Nuño and Wilcox-Archuleta): http://www.azcentral.com/story/opinion/op-ed/2016/11/26/exit-polls-wrong-latino-voters-arizona/94288570/
 
 + Texas (Pedraza and Wilcox-Archuleta): https://www.washingtonpost.com/news/monkey-cage/wp/2016/12/02/donald-trump-did-not-win-34-of-latino-vote-in-texas-he-won-much-less/
 
