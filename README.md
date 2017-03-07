@@ -32,7 +32,7 @@
 + The point of ecological inference is to solve the ecological fallacy of inferring individual level behavior from aggregate data. King's (1997) method is the most widely used ecological inference method in academia and is extensively used in voting rights cases. There is extensive documentation about the reliability and accuracy of these estimates is available here: http://gking.harvard.edu/category/research-interests/methods/ecological-inference 
 
 
-### Code Examples
+# Code Example
 
 
 This script contains sample code to create homogenous precinct analysis plots and to run King's EI on the 2016 election data.
@@ -62,7 +62,7 @@ glimpse(df)
 
 Each row in the dataset is a precinct within a state. For more information on the counties where the precincts reside, see individual files on https://github.com/tylerreny/election2016 for FL, IL, NY or https://github.com/b-w-a?tab=repositories for CO, NV, CA, NM, TX, and AZ.
 
-# Homogenous precinct analysis
+## Homogenous precinct analysis
 
 For this example I first group by state, create weights so that each precinct is weighted by the proportion of voters in each precinct in the state, then I filter, for this example, to just show those precincts in California. Gather turns the dataframe from wide to long for ggplot and then I plot the precincts, change the color scheme, add a weighted GAM for each candidate, and fix the axis labels. 
 
@@ -87,7 +87,7 @@ df %>%
   theme_bw()
 ```
 
-# Ecological Inference
+## Ecological Inference
 
 For the ecological inference, we need to first create a few new columns in the data to create a full EI results table. For this example, I filter the data to just California and randomly sample from that for the example. Running EI on the full dataset takes more than 10 hours. Each state separately can be run in just a few hours.
 
