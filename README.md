@@ -44,7 +44,7 @@ df %>%
          wt=total_votes/grand_total) %>%
   select(-grand_total) %>%
   na.omit() %>%
-  filter(state=='ca') %>%
+  filter(state=='ca') %>% # change state here
   gather(Candidate,Votes,3:4) %>%
   ggplot(aes(pct_latino,Votes,color=Candidate,size=wt)) + 
   geom_point(alpha=0.05) + guides(size=F) +
@@ -71,7 +71,7 @@ For the ecological inference, we need to first create a few new columns in the d
 # but you will want to get rid of that line of code to run on the whole thing
 
 california <- df %>% 
-  filter(state=='ca') %>%
+  filter(state=='ca') %>% #change state here
   sample_n(500) %>% #get rid of this
   mutate(pct_other = 1 - (pct_trump+pct_clinton),
          pct_nonlatino = 1-pct_latino)
